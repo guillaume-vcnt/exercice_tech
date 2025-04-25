@@ -30,7 +30,7 @@ function convertStringToKeyboard(word) {
   };
 
   // Je vérifie que je récupère bien les valeurs de la touche 1
-  //console.log(keyboard.touche_1);
+  // console.log(keyboard.touche_1);
 
   // Je déclare une variable vide pour stocker ma future chaîne convertie
 
@@ -45,10 +45,10 @@ function convertStringToKeyboard(word) {
     const letter = word[i].toLowerCase().trim();
 
     // Je vérifie si j'ai bien mes lettres dans ma variable
-    //console.log(letter);
+    // console.log(letter);
 
     // Je parcours chaque clé de mon objet keyboard (touche_1, touche_2, etc...) avec une boucle for-in et je stocke les clés dans une variable "key"
-    //La boucle for in est utile pour parcourir les clés d'un objet facilement en JavaScript mais il y a d'autres méthodes possibles...
+    // La boucle for in est utile pour parcourir les clés d'un objet facilement en JavaScript mais il y a d'autres méthodes possibles...
 
     for (let key in keyboard) {
       
