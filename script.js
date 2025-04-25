@@ -52,8 +52,7 @@ function convertStringToKeyboard(word) {
 
     for (let key in keyboard) {
       
-      // Avec une condition if je vérifie si la lettre est bien présente dans l'objet avec l'aide de .includes()
-      // et j'ajoute la touche et l'index de la lettre à la variable result
+      // Avec une condition if je vérifie si la lettre est bien présente dans l'objet avec l'aide de .includes() et j'ajoute la touche et l'index de la lettre à la variable result
 
       if (keyboard[key].includes(letter)) {
         
