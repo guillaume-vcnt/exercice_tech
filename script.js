@@ -14,7 +14,7 @@ console.log(`${inputUser} = ${convertStringToKeyboard(inputUser)}`);
 function convertStringToKeyboard(word) {
   
   // Je déclare une variable keyboard qui contient une map objet clé/valeur où chaque clé représente une touche
-  // Chaque valeur de la touche/clé est un tableau contenant les lettres correspondant à cette touche
+  // Chaque valeur de la clé est un tableau contenant les lettres correspondant à la touche
 
   const keyboard = {
     touche_0: [],
