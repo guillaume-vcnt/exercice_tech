@@ -48,7 +48,7 @@ function convertStringToKeyboard(word) {
     //console.log(letter);
 
     // Je parcours chaque clé de mon objet keyboard (touche_1, touche_2, etc...) avec une boucle for-in et je stocke les clés dans une variable "key"
-    // La boucle for-in est utile pour parcourir les clés d'un objet facilement
+    //La boucle for in est utile pour parcourir les clés d'un objet facilement en JavaScript mais il y a d'autres méthodes possibles...
 
     for (let key in keyboard) {
       
