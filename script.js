@@ -12,6 +12,7 @@ console.log(`${inputUser} = ${convertStringToKeyboard(inputUser)}`);
 // Je déclare ensuite une fonction pour convertir le mot inscrit dans l'inputUser avec un paramètre "word" qui se trouve être ici "Banane"
 
 function convertStringToKeyboard(word) {
+  
   // Je déclare une variable keyboard qui contient une map objet clé/valeur où chaque clé représente une touche du clavier
   // Chaque valeur de la touche/clé est un tableau contenant les lettres correspondant à cette touche
 
@@ -49,10 +50,12 @@ function convertStringToKeyboard(word) {
     // La boucle for-in est utile pour parcourir les clés d'un objet facilement
 
     for (let key in keyboard) {
+      
       // Avec une condition if je vérifie si la lettre est bien présente dans l'objet avec l'aide de .includes()
       // et j'ajoute la touche et l'index de la lettre à la variable result
 
       if (keyboard[key].includes(letter)) {
+        
         // Je stocke l'index de la lettre dans ma variable index avec la fonction .indexOf()
 
         const index = keyboard[key].indexOf(letter);
@@ -62,6 +65,7 @@ function convertStringToKeyboard(word) {
         result = result + `${key} [${index + 1}] `;
 
         // Je quitte ma boucle avec break
+        
         break;
       }
     }
