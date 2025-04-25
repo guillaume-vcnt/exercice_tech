@@ -39,6 +39,7 @@ function convertStringToKeyboard(word) {
   // Je lance une boucle for i qui va parcourir chaque lettre du mot passé en paramètre "word"
 
   for (let i = 0; i < word.length; i++) {
+
     // Je passe la lettre en minuscule avec .toLowerCase() au cas où l'inputUser contiendrait des majuscules et supprime les espaces vide avec .trim() par sécurité (exemple " Banane ")
 
     const letter = word[i].toLowerCase().trim();
