@@ -1,6 +1,6 @@
 // Exercice clavier de téléphone (Entretien tech)
 
-// Je déclare une variable pour simuler un input-Frontend qui contient un mot tapé par l'utilisateur (ici une chaîne String avec le mot "Banane")
+// Je déclare une variable pour simuler un input-frontend qui contient un mot tapé par l'utilisateur (ici une chaîne String avec le mot "Banane")
 
 const inputUser = "Banane";
 
