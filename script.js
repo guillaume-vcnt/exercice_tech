@@ -17,16 +17,16 @@ function convertStringToKeyboard(word) {
   // Chaque valeur de la clé est un tableau contenant les lettres correspondant à la touche
 
   const keyboard = {
+    touche_1: [],
+    touche_2: ["a", "b", "c"],
+    touche_3: ["d", "e", "f"],
+    touche_4: ["g", "h", "i"],
+    touche_5: ["j", "k", "l"],
+    touche_6: ["m", "n", "o"],
+    touche_7: ["p", "q", "r", "s"],
+    touche_8: ["t", "u", "v"],
+    touche_9: ["w", "x", "y", "z"],
     touche_0: [],
-    touche_1: ["a", "b", "c"],
-    touche_2: ["d", "e", "f"],
-    touche_3: ["g", "h", "i"],
-    touche_4: ["j", "k", "l"],
-    touche_5: ["m", "n", "o"],
-    touche_6: ["p", "q", "r", "s"],
-    touche_7: ["t", "u", "v"],
-    touche_8: ["w", "x", "y", "z"],
-    touche_9: [],
   };
 
   // Je vérifie que je récupère bien les valeurs de la touche 1
