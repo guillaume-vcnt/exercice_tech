@@ -5,7 +5,7 @@
 const inputUser = "Banane";
 
 // J'appelle la fonction avec la valeur inscrite dans l'inputUser et j'ajoute à mon console.log une variable dynamique ${} qui affichera le mot de l'utilisateur et sa conversion/clavier
-// Banane = touche_1 [2] touche_1 [1] touche_5 [2] touche_1 [1] touche_5 [2] touche_2 [2]
+// Banane = touche_2 [2] touche_2 [1] touche_6 [2] touche_2 [1] touche_6 [2] touche_3 [2]
 
 console.log(`${inputUser} = ${convertStringToKeyboard(inputUser)}`);
 
